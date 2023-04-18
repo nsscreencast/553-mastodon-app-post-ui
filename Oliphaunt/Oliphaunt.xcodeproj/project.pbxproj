@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5517F2E29C1FE2D00005EF2 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5517F2D29C1FE2300005EF2 /* AccountController.swift */; };
+		B5B3AED829BB805500888153 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3AED729BB805500888153 /* KeychainAccess */; };
+		B5B3AEDC29BB82B500888153 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B3AEDB29BB82B500888153 /* OnboardingView.swift */; };
+		B5B3AEE229BB87E800888153 /* Manfred in Frameworks */ = {isa = PBXBuildFile; productRef = B5B3AEE129BB87E800888153 /* Manfred */; };
+		B5C73F2429A66032008F70F5 /* OliphauntApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C73F2329A66032008F70F5 /* OliphauntApp.swift */; };
+		B5C73F2629A66032008F70F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C73F2529A66032008F70F5 /* ContentView.swift */; };
+		B5C73F2829A66033008F70F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C73F2729A66033008F70F5 /* Assets.xcassets */; };
+		B5C73F2B29A66033008F70F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C73F2A29A66033008F70F5 /* Preview Assets.xcassets */; };
+		B5C73F3529A6674F008F70F5 /* InstanceSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C73F3429A6674F008F70F5 /* InstanceSelectionView.swift */; };
+		B5D332B829CB3B0700566962 /* TimelineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D332B729CB3B0700566962 /* TimelineController.swift */; };
+		B5D332BA29CB3B8200566962 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D332B929CB3B8200566962 /* AppViewModel.swift */; };
+		B5D332BB29CB3D1100566962 /* MastodonTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C6E2C929CB3ABE00D7B4F8 /* MastodonTimelineView.swift */; };
+		F49BCC5229CB47F000A9F096 /* TimelineModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BCC5129CB47F000A9F096 /* TimelineModels.swift */; };
+		F49BCC5429CB48A300A9F096 /* PreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BCC5329CB48A300A9F096 /* PreviewSupport.swift */; };
+		F49BCC5629CB4D9800A9F096 /* AttributedString+Mastodon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BCC5529CB4D9800A9F096 /* AttributedString+Mastodon.swift */; };
+		F49BCC5829CB501D00A9F096 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49BCC5729CB501D00A9F096 /* PostView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5517F2D29C1FE2300005EF2 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		B5B3AEDA29BB813D00888153 /* Manfred */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Manfred; path = ../Manfred; sourceTree = "<group>"; };
+		B5B3AEDB29BB82B500888153 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B5B3AEDD29BB858600888153 /* Oliphaunt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Oliphaunt-Info.plist"; sourceTree = "<group>"; };
+		B5C6E2C929CB3ABE00D7B4F8 /* MastodonTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MastodonTimelineView.swift; sourceTree = "<group>"; };
+		B5C73F2029A66032008F70F5 /* Oliphaunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oliphaunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C73F2329A66032008F70F5 /* OliphauntApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliphauntApp.swift; sourceTree = "<group>"; };
+		B5C73F2529A66032008F70F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5C73F2729A66033008F70F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C73F2A29A66033008F70F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5C73F2C29A66033008F70F5 /* Oliphaunt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Oliphaunt.entitlements; sourceTree = "<group>"; };
+		B5C73F3329A66236008F70F5 /* App.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = "<group>"; };
+		B5C73F3429A6674F008F70F5 /* InstanceSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceSelectionView.swift; sourceTree = "<group>"; };
+		B5D332B729CB3B0700566962 /* TimelineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineController.swift; sourceTree = "<group>"; };
+		B5D332B929CB3B8200566962 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		F49BCC5129CB47F000A9F096 /* TimelineModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineModels.swift; sourceTree = "<group>"; };
+		F49BCC5329CB48A300A9F096 /* PreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSupport.swift; sourceTree = "<group>"; };
+		F49BCC5529CB4D9800A9F096 /* AttributedString+Mastodon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AttributedString+Mastodon.swift"; sourceTree = "<group>"; };
+		F49BCC5729CB501D00A9F096 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C73F1D29A66032008F70F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B3AEE229BB87E800888153 /* Manfred in Frameworks */,
+				B5B3AED829BB805500888153 /* KeychainAccess in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B3AED929BB813D00888153 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B5B3AEDA29BB813D00888153 /* Manfred */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B5B3AEDE29BB87B200888153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5C73F1729A66032008F70F5 = {
+			isa = PBXGroup;
+			children = (
+				B5B3AEDD29BB858600888153 /* Oliphaunt-Info.plist */,
+				B5B3AED929BB813D00888153 /* Packages */,
+				B5C73F2229A66032008F70F5 /* App */,
+				B5C73F2129A66032008F70F5 /* Products */,
+				B5B3AEDE29BB87B200888153 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C73F2129A66032008F70F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C73F2029A66032008F70F5 /* Oliphaunt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C73F2229A66032008F70F5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5C73F3229A66221008F70F5 /* Config */,
+				B5C73F2329A66032008F70F5 /* OliphauntApp.swift */,
+				B5C73F2529A66032008F70F5 /* ContentView.swift */,
+				B5B3AEDB29BB82B500888153 /* OnboardingView.swift */,
+				B5517F2D29C1FE2300005EF2 /* AccountController.swift */,
+				B5C73F3429A6674F008F70F5 /* InstanceSelectionView.swift */,
+				B5C6E2C929CB3ABE00D7B4F8 /* MastodonTimelineView.swift */,
+				B5D332B729CB3B0700566962 /* TimelineController.swift */,
+				F49BCC5129CB47F000A9F096 /* TimelineModels.swift */,
+				F49BCC5329CB48A300A9F096 /* PreviewSupport.swift */,
+				F49BCC5529CB4D9800A9F096 /* AttributedString+Mastodon.swift */,
+				F49BCC5729CB501D00A9F096 /* PostView.swift */,
+				B5C73F2729A66033008F70F5 /* Assets.xcassets */,
+				B5C73F2C29A66033008F70F5 /* Oliphaunt.entitlements */,
+				B5C73F2929A66033008F70F5 /* Preview Content */,
+				B5D332B929CB3B8200566962 /* AppViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B5C73F2929A66033008F70F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5C73F2A29A66033008F70F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5C73F3229A66221008F70F5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B5C73F3329A66236008F70F5 /* App.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C73F1F29A66032008F70F5 /* Oliphaunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C73F2F29A66033008F70F5 /* Build configuration list for PBXNativeTarget "Oliphaunt" */;
+			buildPhases = (
+				B5C73F1C29A66032008F70F5 /* Sources */,
+				B5C73F1D29A66032008F70F5 /* Frameworks */,
+				B5C73F1E29A66032008F70F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oliphaunt;
+			packageProductDependencies = (
+				B5B3AED729BB805500888153 /* KeychainAccess */,
+				B5B3AEE129BB87E800888153 /* Manfred */,
+			);
+			productName = Oliphaunt;
+			productReference = B5C73F2029A66032008F70F5 /* Oliphaunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C73F1829A66032008F70F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B5C73F1F29A66032008F70F5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B5C73F1B29A66032008F70F5 /* Build configuration list for PBXProject "Oliphaunt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C73F1729A66032008F70F5;
+			packageReferences = (
+				B5B3AED629BB805500888153 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
+			productRefGroup = B5C73F2129A66032008F70F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C73F1F29A66032008F70F5 /* Oliphaunt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C73F1E29A66032008F70F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C73F2B29A66033008F70F5 /* Preview Assets.xcassets in Resources */,
+				B5C73F2829A66033008F70F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C73F1C29A66032008F70F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D332B829CB3B0700566962 /* TimelineController.swift in Sources */,
+				B5C73F3529A6674F008F70F5 /* InstanceSelectionView.swift in Sources */,
+				F49BCC5629CB4D9800A9F096 /* AttributedString+Mastodon.swift in Sources */,
+				B5D332BA29CB3B8200566962 /* AppViewModel.swift in Sources */,
+				B5517F2E29C1FE2D00005EF2 /* AccountController.swift in Sources */,
+				F49BCC5229CB47F000A9F096 /* TimelineModels.swift in Sources */,
+				B5D332BB29CB3D1100566962 /* MastodonTimelineView.swift in Sources */,
+				B5B3AEDC29BB82B500888153 /* OnboardingView.swift in Sources */,
+				B5C73F2629A66032008F70F5 /* ContentView.swift in Sources */,
+				F49BCC5429CB48A300A9F096 /* PreviewSupport.swift in Sources */,
+				F49BCC5829CB501D00A9F096 /* PostView.swift in Sources */,
+				B5C73F2429A66032008F70F5 /* OliphauntApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5C73F2D29A66033008F70F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C73F3329A66236008F70F5 /* App.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5C73F2E29A66033008F70F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C73F3329A66236008F70F5 /* App.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B5C73F3029A66033008F70F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Oliphaunt.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Oliphaunt-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5C73F3129A66033008F70F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Oliphaunt.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Oliphaunt-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C73F1B29A66032008F70F5 /* Build configuration list for PBXProject "Oliphaunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C73F2D29A66033008F70F5 /* Debug */,
+				B5C73F2E29A66033008F70F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C73F2F29A66033008F70F5 /* Build configuration list for PBXNativeTarget "Oliphaunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C73F3029A66033008F70F5 /* Debug */,
+				B5C73F3129A66033008F70F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5B3AED629BB805500888153 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5B3AED729BB805500888153 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5B3AED629BB805500888153 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		B5B3AEE129BB87E800888153 /* Manfred */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Manfred;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B5C73F1829A66032008F70F5 /* Project object */;
+}

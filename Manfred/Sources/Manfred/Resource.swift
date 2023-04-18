@@ -1,0 +1,3 @@
+
+public protocol Resource: Codable {
+}

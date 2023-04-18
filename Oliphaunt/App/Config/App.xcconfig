@@ -1,0 +1,4 @@
+#include "TeamID.xcconfig"
+
+CODE_SIGN_STYLE = Automatic
+PRODUCT_BUNDLE_IDENTIFIER = com.nsscreencast.Oliphaunt.$(DEVELOPMENT_TEAM_ID)
